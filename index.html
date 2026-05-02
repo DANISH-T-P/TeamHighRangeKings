@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Range Kings - Football Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo/logo.png" alt="High Range Kings Logo" class="navbar-logo">
+                High Range Kings
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#management">Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#supporters">Supporters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <div class="hero-logo mb-4 animate-fade-in">
+                        <img src="assets/logo/logo.png" alt="High Range Kings Logo" class="hero-logo-image">
+                    </div>
+                    <h1 class="display-2 mb-4 animate-fade-in">HIGH RANGE KINGS</h1>
+                    <p class="lead mb-4 fs-4 animate-fade-in-delay">Dominating the Pitch with Passion & Excellence</p>
+                    <div class="sponsor-badge mb-5 animate-fade-in-delay-2">
+                        <span class="badge bg-warning text-dark px-4 py-2">
+                            <i class="fas fa-star me-2"></i>Sponsored by ORANGE GROUP RIYADH
+                        </span>
+                    </div>
+                    <div class="animate-fade-in-delay-3">
+                        <a href="#about" class="btn btn-outline-light btn-lg me-3">
+                            <i class="fas fa-info-circle me-2"></i>Learn More
+                        </a>
+                        <a href="#team" class="btn btn-warning btn-lg">
+                            <i class="fas fa-users me-2"></i>Meet the Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title mb-4">About High Range Kings</h2>
+                    <p class="lead text-muted">
+                        High Range Kings is a professional football team dedicated to excellence, 
+                        teamwork, and sporting greatness. With unwavering determination and skill, 
+                        we strive to dominate every match we play.
+                    </p>
+                    <p class="text-muted">
+                        Backed by the support of <strong>ORANGE GROUP RIYADH</strong>, our team 
+                        has grown into a formidable force in football, combining traditional values 
+                        with modern training techniques and strategies.
+                    </p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="stat-box">
+                                <h3 class="text-warning">50+</h3>
+                                <p class="text-muted">Matches Played</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stat-box">
+                                <h3 class="text-warning">35+</h3>
+                                <p class="text-muted">Victories</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="team-photos-gallery">
+                        <div class="photo-item">
+                            <img src="assets/team/team1.png" alt="High Range Kings Team Photo 1">
+                            <div class="photo-overlay">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="photo-item">
+                            <img src="assets/team/team2.png" alt="High Range Kings Team Photo 2">
+                            <div class="photo-overlay">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Squad</h2>
+                <p class="text-muted">Meet the warriors who make magic on the pitch</p>
+            </div>
+            <div class="row g-4">
+                <!-- Player 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl1.png" alt="Player 1">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player One</h5>
+                            <p class="position">Forward</p>
+                            <span class="number">#10</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl2.png" alt="Player 2">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Two</h5>
+                            <p class="position">Midfielder</p>
+                            <span class="number">#8</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl3.png" alt="Player 3">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Three</h5>
+                            <p class="position">Defender</p>
+                            <span class="number">#5</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl4.png" alt="Player 4">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Four</h5>
+                            <p class="position">Goalkeeper</p>
+                            <span class="number">#1</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl5.png" alt="Player 5">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Five</h5>
+                            <p class="position">Winger</p>
+                            <span class="number">#7</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl6.png" alt="Player 6">
+                        </div>
+                        <div class="player-info">
+                            <h5>Yusuf</h5>
+                            <p class="position">Striker</p>
+                            <span class="number">#9</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl7.png" alt="Player 7">
+                        </div>
+                        <div class="player-info">
+                            <h5>N S</h5>
+                            <p class="position">Midfielder</p>
+                            <span class="number">#6</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl8.png" alt="Player 8">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Eight</h5>
+                            <p class="position">Defender</p>
+                            <span class="number">#4</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 9 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl9.png" alt="Player 9">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Nine</h5>
+                            <p class="position">Forward</p>
+                            <span class="number">#11</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 10 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl10.png" alt="Player 10">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Ten</h5>
+                            <p class="position">Defender</p>
+                            <span class="number">#3</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Player 11 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/players/pl11.png" alt="Player 11">
+                        </div>
+                        <div class="player-info">
+                            <h5>Player Eleven</h5>
+                            <p class="position">Midfielder</p>
+                            <span class="number">#14</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Management Section -->
+    <section id="management" class="management-section py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Management Team</h2>
+                <p class="text-muted">The leaders guiding High Range Kings to success</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Manager 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/managers/Manager1.png" alt="Manager 1">
+                        </div>
+                        <div class="player-info">
+                            <h5>Manager One</h5>
+                            <p class="position">Head Manager</p>
+                            <span class="number"><i class="fas fa-briefcase me-1"></i>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Manager 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="player-card">
+                        <div class="player-image">
+                            <img src="assets/managers/Manager2.png" alt="Manager 2">
+                        </div>
+                        <div class="player-info">
+                            <h5>Manager Two</h5>
+                            <p class="position">Assistant Manager</p>
+                            <span class="number"><i class="fas fa-briefcase me-1"></i>Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Achievements</h2>
+                <p class="text-muted">A legacy of excellence and victory</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="achievement-card text-center">
+                        <i class="fas fa-trophy achievement-icon"></i>
+                        <h4>League Champions</h4>
+                        <p class="text-muted">Multiple championship titles won through dedication and skill</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievement-card text-center">
+                        <i class="fas fa-medal achievement-icon"></i>
+                        <h4>Top Scorer Award</h4>
+                        <p class="text-muted">Recognized for outstanding offensive performance</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="achievement-card text-center">
+                        <i class="fas fa-shield-alt achievement-icon"></i>
+                        <h4>Best Defense</h4>
+                        <p class="text-muted">Awarded for exceptional defensive strategy and teamwork</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supporters Section -->
+    <section id="supporters" class="supporters-section py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Loyal Supporters</h2>
+                <p class="text-muted">The backbone of High Range Kings - our amazing fans</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Supporter 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="supporter-card">
+                        <div class="supporter-image">
+                            <img src="assets/supporters/DANISH.jpeg" alt="Danish">
+                        </div>
+                        <div class="supporter-info">
+                            <h5>Danish</h5>
+                            <p class="role">Super Fan</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Supporter 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="supporter-card">
+                        <div class="supporter-image">
+                            <img src="assets/supporters/SHAHAL.jpeg" alt="Shahal">
+                        </div>
+                        <div class="supporter-info">
+                            <h5>Shahal</h5>
+                            <p class="role">Elite Supporter</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Supporter 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="supporter-card">
+                        <div class="supporter-image">
+                            <img src="assets/supporters/SHIJAS.jpeg" alt="Shijas">
+                        </div>
+                        <div class="supporter-info">
+                            <h5>Shijas</h5>
+                            <p class="role">Golden Fan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section class="sponsor-section py-5 bg-dark text-white">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <h3 class="mb-3">Proudly Sponsored By</h3>
+                    <div class="sponsor-logo">
+                        <i class="fas fa-building me-3"></i>
+                        <span class="fs-2 fw-bold">ORANGE GROUP RIYADH</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <p class="lead mb-0">
+                        Supporting excellence in sports and building champions together.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="text-muted">Want to join us or collaborate? Reach out!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-envelope contact-icon mb-3"></i>
+                    <h5>Email</h5>
+                    <p class="text-muted">danishtp11@gmail.com</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-phone contact-icon mb-3"></i>
+                    <h5>Phone</h5>
+                    <p class="text-muted">+91 7559 863 149</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-map-marker-alt contact-icon mb-3"></i>
+                    <h5>Location</h5>
+                    <p class="text-muted">Riyadh, Saudi Arabia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <img src="assets/logo/logo.png" alt="High Range Kings Logo" class="footer-logo">
+                    <p class="mb-0 mt-2">&copy; 2026 High Range Kings. All rights reserved.</p>
+                </div>
+                <div class="col-md-8 text-center text-md-end">
+                    <p class="mb-2 fw-bold">Follow Us</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/danish.tp" class="text-white me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:danishtp11@gmail.com" class="text-white me-3"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/917559863149" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
